@@ -14,7 +14,7 @@ ADMINS = (
 )
 
 DEFAULT_FROM_EMAIL = excavator.env_string(
-    'DJANGO_DEFAULT_FROM_EMAIL', default='ladder@apogaea.com',
+    'DJANGO_DEFAULT_FROM_EMAIL', default='admin@resaleticket.in',
 )
 
 MANAGERS = ADMINS
@@ -39,7 +39,7 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Denver'
+TIME_ZONE = 'Asia/Kolkata'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -181,10 +181,10 @@ DEFAULT_ACCEPT_TIME = 2 * ONE_DAY_IN_SECONDS
 
 # Registration Window
 REGISTRATION_OPEN_DATE = datetime.datetime(
-    year=2016, month=3, day=21, hour=11, tzinfo=pytz.timezone(TIME_ZONE),
+    year=2017, month=1, day=201, hour=11, tzinfo=pytz.timezone(TIME_ZONE),
 )
 REGISTRATION_CLOSE_DATE = datetime.datetime(
-    year=2016, month=5, day=30, hour=0, tzinfo=pytz.timezone(TIME_ZONE),
+    year=2018, month=1, day=30, hour=0, tzinfo=pytz.timezone(TIME_ZONE),
 )
 
 # Python dotted path to the WSGI application used by Django's runserver.
