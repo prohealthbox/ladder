@@ -10,7 +10,7 @@ import datetime
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 ADMINS = (
-    ('Piper', 'pipermerriam@gmail.com'),
+    ('Arjun', 'arjun.kumar21@gmail.com'),
 )
 
 DEFAULT_FROM_EMAIL = excavator.env_string(
