@@ -181,7 +181,7 @@ DEFAULT_ACCEPT_TIME = 2 * ONE_DAY_IN_SECONDS
 
 # Registration Window
 REGISTRATION_OPEN_DATE = datetime.datetime(
-    year=2017, month=1, day=201, hour=11, tzinfo=pytz.timezone(TIME_ZONE),
+    year=2017, month=1, day=01, hour=11, tzinfo=pytz.timezone(TIME_ZONE),
 )
 REGISTRATION_CLOSE_DATE = datetime.datetime(
     year=2018, month=1, day=30, hour=0, tzinfo=pytz.timezone(TIME_ZONE),
